@@ -1,0 +1,1 @@
+{{ implode('<br />', $schedules) }}

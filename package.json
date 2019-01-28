@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "webpack --mode=development --progress --hide-modules",
+        "prod": "webpack --mode=production --progress --hide-modules",
+        "watch": "webpack --mode=development --progress --hide-modules --watch"
+    },
+    "devDependencies": {
+        "axios": "^0.18.0",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.1",
+        "css-loader": "^1.0.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.11",
+        "popper.js": "^1.12",
+        "vue": "^2.5.17",
+        "vue-loader": "^15.4.2",
+        "vue-style-loader": "^4.1.2",
+        "vue-template-compiler": "^2.5.17",
+        "webpack-cli": "^3.1.2",
+        "webpack-dotenv-plugin": "^2.1.0"
+    },
+    "dependencies": {
+        "dotenv-webpack": "^1.5.7",
+        "mini-toastr": "^0.8.1",
+        "webpack": "^4.26.0"
+    }
+}
